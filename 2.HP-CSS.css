@@ -1,0 +1,124 @@
+body {
+  background-image: url("BG.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+h6 {
+  font-size: 16px;
+}
+.steps3 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  background-color: #000;
+  border-radius: 30px;
+  padding: 10px;
+  align-items: start;
+  margin: 100px;
+}
+
+.nav {
+  background-color: #77dd77;
+  border-color: rgb(75, 188, 75);
+  border: 2px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 10vh;
+}
+
+.nav a {
+  margin: 40px;
+  padding-right: 20px;
+}
+a {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #d4e2d4;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #e9b384;
+  border-radius: 25px;
+  color: white;
+}
+
+.intro {
+  margin-top: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  width: 200px;
+  margin: 50px;
+  font-size: 50px;
+  text-align: left;
+}
+
+.eating {
+  border-radius: 40px;
+}
+.intro-2 {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eating2 {
+  margin-right: 100px;
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  border-radius: 40px;
+}
+
+h2 {
+  width: 200px;
+  font-size: 49px;
+}
+
+.products-btn {
+  margin-top: 80px;
+  height: 75px;
+  width: 200px;
+  border-radius: 100px;
+}
+.products-btn:hover {
+  background-color: #e9b384;
+  border-radius: 100px;
+  color: white;
+}
+.steps {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(137, 246, 137, 0.758);
+  height: 300px;
+  width: 50%;
+  border-radius: 50px;
+  justify-items: center;
+  justify-content: center;
+}
+.step1,
+.step2,
+.step3 {
+  height: 200px;
+  font-size: 16px;
+  margin: 20px;
+  width: 33%;
+  border: 2px solid rgba(247, 110, 190, 0.81);
+  border-radius: 51px;
+  padding-top: 70px;
+  align-items: baseline;
+}
