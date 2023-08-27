@@ -6,7 +6,6 @@
     <title>Nutri Plus-Checkout</title>
     <link rel="stylesheet" href="8.C-CSS.css" />
     <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
-    <script src="JS.js"></script>
   </head>
   <body>
     <div class="nav">
@@ -17,11 +16,33 @@
       <a href="5.SU.html" class="link">👤 Sign up</a>
     </div>
     <div class="checkout">
-      <p id="demo"></p>
-      <script>
-        document.getElementById("demo") = x;
-      </script>
-      <button class="final"></button>
+      <table class="table">
+        <tr>
+          <td>Name:</td>
+          <td><p id="rname">NA</p></td>
+        </tr>
+        <tr>
+          <td>Plan:</td>
+          <td><p id="rplan">NA</p></td>
+        </tr>
+        <tr>
+          <td>Number:</td>
+          <td><p id="rno">NA</p></td>
+        </tr>
+        <tr>
+          <td>Address:</td>
+          <td><p id="raddress">NA</p></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="btn">
+            <center>
+              <button onclick="tq()">Confirm</button>
+            </center>
+          </td>
+        </tr>
+      </table>
     </div>
+
+    <script type="text/javascript" src="9.JS.js" />
   </body>
 </html>
